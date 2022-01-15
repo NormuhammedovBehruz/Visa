@@ -1,0 +1,101 @@
+/* Global */
+
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/background.jpg);
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+}
+
+.content {
+    flex-grow: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-top: 30px;
+    width: 500px;
+}
+
+.divier {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 5%;
+    border: 10px dotted #ddd;
+    border-bottom: none;
+    margin-bottom: 30px;
+}
+
+.main-content-heading {
+    text-align: center;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.rektangle {
+    margin: 0;
+}
+
+.rectangle {
+    margin: 0;
+}
+
+.content-item {
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 23.2px;
+}
+
+.content-item:hover {
+    background-color: #d3d0d0a6;
+}
+
+.content-img {
+    margin-right: 20px;
+}
+
+.content-heading {
+    padding-right: 210px;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+}
+
+.content-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2960a8;
+    text-decoration: none;
+}
+
+.content-heding {
+    color: #fff;
+    font-family: "Opan Sans", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.content-logo {
+}
