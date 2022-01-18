@@ -97,5 +97,6 @@ body {
     padding-right: 5px;
 }
 
-.content-logo {
+.content-button:hover {
+    background-color: #406799;
 }
